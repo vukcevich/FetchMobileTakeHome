@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//Added in order to do Unit Test for AsyncCachedImage
 protocol URLSessionProtocol {
     func data(from url: URL) async throws -> (Data, URLResponse)
 }
