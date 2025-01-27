@@ -41,6 +41,9 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                .refreshable {
+                    await fetchViewModel.fetchData()
+                }
             }
         }
         .padding()
