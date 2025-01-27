@@ -1,6 +1,6 @@
 
 ### Summary: 
-It's a simple single screen as per request. I display recipes with name, cuisine and small photo. 
+It's a single screen as per instructions. I just display recipes with name, cuisine and small photo. 
 For small photo, I use image caching. 
 
 ### Focus Areas:
